@@ -1,0 +1,52 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="sap-vpc" category="compute" audience="compute" href="/docs/sap-vpc?topic=getting-started" product-page="https://www.ibm.com/cloud/sap" path="sap-vpc"}
+SAP on IBM Cloud VPC
+
+    {: .navgroup id="learn"}
+    sap-vpc-index.md
+    [What is IBM Cloud?](https://www.ibm.com/cloud)
+    [Get started on IBM Cloud](https://www.ibm.com/cloud/get-started)
+    [SAP workloads on IBM Cloud](https://www.ibm.com/cloud/sap/certified-infrastructure)
+    [Solutions for SAP](https://www.ibm.com/cloud/sap)
+    [Virtual Private Cloud (VPC)](https://www.ibm.com/cloud/learn/vpc)
+    [Pricing](https://www.ibm.com/cloud/vpc/pricing)
+    sap-vpc-general-iaas-concepts.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    sap-vpc-byol.md
+
+    {: .topicgroup}
+    Planning
+        sap-vpc-planning-your-system-landscape.md
+        sap-vpc-considerations.md
+        sap-vpc-size-server.md
+        sap-vpc-determine-configuration.md
+
+    {: .topicgroup}
+    Provisioning
+        sap-vpc-account-structure.md
+        sap-vpc-setting-up-infrastructure.md
+        sap-vpc-access-infrastructure.md
+        sap-vpc-rdbms-considerations.md
+
+    {: .topicgroup}
+    Managing
+        sap-vpc-installing-SAP-landscape.md
+        sap-vpc-metrics-collector.md
+        sap-vpc-sample-deployment.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    [Getting help and support](/get-support/get-support-getting-customer-support)
+
+    {: .topicgroup}
+    FAQs
+        sap-vpc-faqs.md
+
+    {: .navgroup-end}
