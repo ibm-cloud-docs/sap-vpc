@@ -218,7 +218,7 @@ In our example, it's `virtio-07a7-184b4a2f-d786-4`, which is linked to `/dev/vdb
 
 1. Add the UUID to `/etc/fstab`, in our example:
   ```
-  UUID=1350230e-8058-4fe5-bbc0-cc27253ff778 /db2 defaults 0 0
+  UUID=1350230e-8058-4fe5-bbc0-cc27253ff778 /db2 xfs defaults 0 0
   ```
 
 1. Create a file system to use for the greater part of your installation, since we are using IBM Db2, we choose:
