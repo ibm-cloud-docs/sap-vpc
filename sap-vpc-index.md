@@ -18,7 +18,7 @@ subcollection: sap-vpc
 {:table: .aria-labeledby="caption"}
 {:note: .note}
 
-# Getting started with SAP on IBM Cloud Virtual Private Cloud
+# Getting started with SAP Netweaver on IBM Cloud Virtual Private Cloud
 {: #getting-started}
 
 {{site.data.keyword.IBM}} and SAP continue a 45-year+ collaboration in multiple areas, including hardware, software, cloud, services, and finance. They are now collaborating to run SAP workloads on {{site.data.keyword.vpc_full}} (VPC).
@@ -49,4 +49,3 @@ Use the following table to help you get your {{site.data.keyword.vpc_short}} inf
 | 4. Set up your infrastructure | Use the steps in [Setting up your infrastructure](/docs/sap-vpc?topic=sap-vpc-set_up_infrastructure) to order a virtual server, order VPC Block Storage, and more. |
 | 5. Install SAP software | Install SAP software on your IBM Cloud infrastructure the same as if the servers were on-premises. For more information about installing SAP software, see [Downloading and installing SAP software and applications](/docs/sap-vpc?topic=sap-vpc-install_sap). |
 {: caption="Table 1. Steps to get up and running quickly" caption-side="top"}
-

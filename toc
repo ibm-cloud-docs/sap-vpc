@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="sap-vpc" category="compute" audience="compute" href="/docs/sap-vpc?topic=sap-vpc-getting-started" product-page="https://www.ibm.com/cloud/sap" path="sap-vpc"}
-SAP on IBM Cloud VPC
+SAP Netweaver on IBM Cloud VPC
 
     {: .navgroup id="learn"}
     sap-vpc-index.md
