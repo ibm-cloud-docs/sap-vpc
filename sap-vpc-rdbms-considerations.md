@@ -38,6 +38,7 @@ If you install a system based on a different version of Db2, you can switch the 
 {: note}
 
 ### Planning
+{: #db2-planning}
 
 First of all, check [SAP Note 101809](https://launchpad.support.sap.com/#/notes/101809){: external} for details about the supported Db2 versions and fix pack levels as well as [SAP Note 2927211](https://launchpad.support.sap.com/#/notes/2927211){: external} for the supported Db2 releases to be used for the deployment on {{site.data.keyword.vpc_full}}.
 
@@ -51,6 +52,7 @@ Before starting your deployment, check all relevant information and prerequisite
   - [Recommended file system types for Db2](https://www.ibm.com/support/knowledgecenter/SSEPGG_11.5.0/com.ibm.db2.luw.admin.dbobj.doc/doc/r0056470.html){: external}
 
 ### Deployment
+{: #db2-deployment}
 
 Before starting the software deployment, install the software packages for Korn Shell and Asynchronous IO on the virtual server instance. It is also helpful to install zip and unzip.
 ```
@@ -107,7 +109,7 @@ When Using SAP Business Warehouse with the Db2 database partitioning feature, a 
 On the SAP ASE landing page you will find useful documentation and reference manuals - see [SAP Help Portal -- SAP Adaptive Server Enterprise](https://help.sap.com/viewer/product/SAP_ASE/16.0.3.7/en-US){: external}. Another good source of information is the [SAP Applications on SAP Adaptive Server Enterprise Community Page](https://community.sap.com/topics/applications-on-ase){: external}.
 
 ### Planning
-
+{: #ase-planning}
 Be sure to check [SAP Note 2489781](https://launchpad.support.sap.com/#/notes/2489781){: external} for details about the supported operating systems and versions as well as [SAP Note 2927211](https://launchpad.support.sap.com/#/notes/2927211){: external} for the supported ASE releases to be used for the deployment on {{site.data.keyword.vpc_full}}.
 
 Before starting your deployment, check all relevant information and prerequisites that are mentioned in the following essential documentation:
@@ -116,5 +118,5 @@ Before starting your deployment, check all relevant information and prerequisite
   - [Minimally Configuring an SAP ASE Server](https://help.sap.com/viewer/23c3bb4a29be443ea887fa10871a30f8/16.0.3.7/en-US/a6371abfbc2b10149c66e4e41119a6da.html){: external}
 
  ### Deployment
-
+{: #ase-deployment}
 As already mentioned, deployment on {{site.data.keyword.vpc_full}} similar to deployment on-premise. However, there are subtle differences in getting the required infrastructure deployed and accessing it. Refer to the steps in [Sample SAP NetWeaver deployment](/docs/sap-vpc?topic=sap-vpc-sample-sap-netweaver-deployment) and then follow the SAP installation guides and the SAP Notes listed above.

@@ -67,7 +67,7 @@ You can restrict access to and from IP ranges, protocols, and ports through secu
   {: note}
 
 ### New subnet for VPC
-{: #new-subnet-for-vpc}
+{: #new-subnet-for-vpc-sample}
 
 1. Enter a unique **Name** for the VPC subnet, for example, `sap-subnet1`.
 1. Select a **Resource group** for the subnet. For this example, let the value default.

@@ -89,7 +89,7 @@ Optional setup.
 1. _Optional: Default address prefixes_. Disable this option if you don't want to assign default subnet address prefixes to each zone in your VPC. After you create your VPC, you can go to its details page and set your own subnet address prefixes. If you do disable this option, the **New subnet for VPC** section will be hidden, and will require manual definition after the VPC is created. Leave the value default.
 
 ### New subnet for VPC
-{: #new-subnet-for-vpc}
+{: #new-subnet-for-vpc-account}
 
 1. Enter a unique **Name** for the VPC subnet.
 1. Select a **Resource group** for the subnet.
