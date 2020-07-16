@@ -78,7 +78,7 @@ As with on-premises installations, check the performance and latency requirement
 ### Fencing considerations
 {: #fencing}
 
-Due to the nature of a cloud environment, network-based access to remote management devices through the Intelligent Platform Management Interface (IPMI) is not available, which is typically used for clustering fencing to verify a quorum.
+Due to the nature of a cloud environment, network-based access to remote management devices through the Intelligent Platform Management Interface (IPMI) is not available.
 
 In the absence of an IPMI-enabled device and shared storage devices, you need to implement other fencing mechanisms. For example, Diskless Storage-based Death (SBD) for Linux. For more information about Linux High Availability Cluster Concepts,see [Cluster concepts](http://www.linux-ha.org/wiki/Cluster_Concepts){: external}.
 

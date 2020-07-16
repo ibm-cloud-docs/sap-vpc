@@ -35,21 +35,21 @@ For more information about {{site.data.keyword.cloud_notm}} data centers and poi
 ### IBM Cloud Generation 2 environment
 {: #vpc-gen2}
 
-The {{site.data.keyword.vpc_short}} is available for Generation 1 {{site.data.keyword.virtualmachinesshort}} that are based on Classic Infrastructure (formerly known as VPC on Classic) and with Generation 2 {{site.data.keyword.virtualmachinesshort}}. The Generation 2 compute platform is based on the latest infrastructure, and offers improved networking performance (up to 80 Gbps), five times faster provisioning than before, and a flexible selection of extra IaaS resources. 
+The {{site.data.keyword.vpc_short}} is available for Generation 1 {{site.data.keyword.virtualmachinesshort}} that are based on Classic Infrastructure (formerly known as VPC on Classic) and with Generation 2 {{site.data.keyword.virtualmachinesshort}}. The Generation 2 compute platform is based on the latest infrastructure, and offers improved networking performance (up to 80 Gbps), five times faster provisioning than before, and a flexible selection of extra IaaS resources.
 
 {{site.data.keyword.cloud_notm}} for SAP provides SAP-certified infrastructure by using the latest Generation 2 {{site.data.keyword.virtualmachinesshort}}.
 
-### IBM Cloud VPC network connectivity 
+### IBM Cloud VPC network connectivity
 {: #vpc-network-connectivity}
 
 {{site.data.keyword.vpc_short}} provides a robust network that is secured for an individual customer, with flexible compute.
 
 A VPC is created within a specific region, and that region contains zones where subnets are created and resources are deployed. Each zone uses an address prefix, while subnets exist within this construct. You can define each subnet manually by choosing the IP range and the subnet mask, or you can choose the number of IP addresses needed.
 
-For more information on VPC zone-to-zone, VPC-to-VPC, VPC-to-Classic Infrastructure, and VPC-to-on-premises data centers by using a VPC VPN Gateway, see [About Networking for VPC](/docs/vpc?topic=vpc-about-networking-for-vpc) and [Setting up access to classic infrastructure](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure).
+For more information on VPC access for zone-to-zone, VPC-to-VPC, VPC-to-Classic Infrastructure, and VPC-to-on-premises data centers by using a VPC VPN Gateway, see [About Networking for VPC](/docs/vpc?topic=vpc-about-networking-for-vpc) and [Setting up access to classic infrastructure](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure).
 
 
-### VPC storage 
+### VPC storage
 {: #vpc-storage}
 
 {{site.data.keyword.block_storage_is_full}} uses input/output operations per second (IOPS) to determine storage needs. All storage is selected based on capacity (GB) and performance (IOPS) measurements and is required to meet a specific SAP NetWeaver configuration.
@@ -59,7 +59,7 @@ IOPS are measured based on 16 KB block size with a 50/50 read/write mix. In orde
 Contact [{{site.data.keyword.cloud_notm}} Support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) for extension options if the storage options are insufficient for your workload.
 
 
-## IBM Virtual Servers 
+## IBM Virtual Servers
 {: #virtual-servers}
 
 {{site.data.keyword.virtualmachineslong}} (Gen2) are virtual machines that run on an {{site.data.keyword.IBM_notm}}-managed hypervisor. {{site.data.keyword.virtualmachinesshort}} provide flexible compute by using a multi-tenant infrastructure for SAP workloads. The operating system and applications that run inside the {{site.data.keyword.virtualmachinesshort}} are managed by the account holder, either you, your customer, or your services partner depending on your busineess operations.
@@ -71,17 +71,17 @@ For more explanation information about Virtual Servers, see [What is {{site.data
 ### Virtual Server operating systems
 {: #vs-operating-systems}
 
-For a list of operating systems and databases available for SAP NetWeaver-based system deployments, see [SAP Note 2927211](https://launchpad.support.sap.com/#/notes/2927211){: external}. 
+For a list of operating systems and databases available for SAP NetWeaver-based system deployments, see [SAP Note 2927211](https://launchpad.support.sap.com/#/notes/2927211){: external}.
 
-  An SAP S-user ID is required to access the SAP Note. 
+  An SAP S-user ID is required to access the SAP Note.
   {: note}
 
 ## Deployment and management
 {: #deployment-and-management}
 
-{{site.data.keyword.virtualmachinesshort}} (Gen2) are deployed from the VPC Infrastructure section of the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/login){: external}, or by generating an API key using {{site.data.keyword.cloud_notm}} CLI, by using {{site.data.keyword.cloud_notm}} APIs, or by using [{{site.data.keyword.cloud_notm}} Terraform](https://ibm-cloud.github.io/tf-ibm-docs/index.html){: external}. 
+{{site.data.keyword.virtualmachinesshort}} (Gen2) are deployed from the VPC Infrastructure section of the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/login){: external}, or by generating an API key using {{site.data.keyword.cloud_notm}} CLI, by using {{site.data.keyword.cloud_notm}} APIs, or by using [{{site.data.keyword.cloud_notm}} Terraform](https://ibm-cloud.github.io/tf-ibm-docs/index.html){: external}.
 
-Once provisioned and the server is running, your {{site.data.keyword.virtualmachinesshort}} are managed through the {{site.data.keyword.cloud_notm}} console, {{site.data.keyword.cloud_notm}} CLI, {{site.data.keyword.cloud_notm}} APIs, or {{site.data.keyword.cloud_notm}} Terraform. 
+Once provisioned and the server is running, your {{site.data.keyword.virtualmachinesshort}} are managed through the {{site.data.keyword.cloud_notm}} console, {{site.data.keyword.cloud_notm}} CLI, {{site.data.keyword.cloud_notm}} APIs, or {{site.data.keyword.cloud_notm}} Terraform.
 
 ## Support
 {: #concept-support}

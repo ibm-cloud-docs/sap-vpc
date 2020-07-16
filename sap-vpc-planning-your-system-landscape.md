@@ -22,7 +22,7 @@ subcollection: sap-vpc
 # Planning your SAP system landscape
 {: #planning-your-system-landscape}
 
-An SAP landscape is a group of two or more SAP systems that usually include development, quality and test, and production. One SAP system consists of one or more *SAP instances*, which are a group of processes that are started and stopped at the same time. These *SAP instances* are grouped to form a specified SAP system for a defined use for a region or business unit. Then, the instances are grouped in a landscape as development or test, or production systems with one or multiple tracks (such as "project" and "business"). This landscape design is up to each business, dependent on business requirements.
+An SAP landscape is a group of two or more SAP systems that usually include development, quality and test, and production. One SAP system consists of one or more *SAP instances*, which are a group of processes that are started and stopped at the same time. These *SAP instances* are grouped to form a specified SAP system for a defined use for a region or business unit. Then, the instances are grouped in a landscape as development, test, or production systems. Each system includes one or multiple tracks (such as "project" and "business"). This landscape design is up to each business, dependent on business requirements.
 {: shortdesc}
 
 Landscapes have several possible configurations, such as server (CPU, RAM) size and storage size, for all SAP solutions in the market. These solutions include SAP NetWeaver-based products. SAP NetWeaver-based products range from older solutions, such as SAP ECC and SAP BW (that use "AnyDB" vendors that are approved by SAP), to the new range of SAP solutions, such as SAP S/4HANA and SAP BW/4HANA (that use SAP HANA database). Beyond the enterprise resource planning (ERP) and enterprise data warehouse (EDW) examples, there are many available SAP products or add-ons for different industries and business types.
@@ -88,7 +88,7 @@ Items to consider when you make your determinations:
 Use the following to help your planning process and to help build your target SAP landscape.
 
   * [Consideration when planning your SAP landscape](/docs/sap-vpc?topic=sap-vpc-considerations)
-  * [Size the server](/docs/sap-vpc?topic=sap-vpc-size_the_server#size_the_server) 
-  * [Determine your configuration](/docs/sap-vpc?topic=sap-vpc-determine_configuration#determine_configuration) 
+  * [Size the server](/docs/sap-vpc?topic=sap-vpc-size_the_server#size_the_server)
+  * [Determine your configuration](/docs/sap-vpc?topic=sap-vpc-determine_configuration#determine_configuration)
 
 Select the appropriate option to begin planning your SAP landscape.

@@ -75,7 +75,7 @@ Advise your networking department to contact [{{site.data.keyword.cloud_notm}} S
 Each VPC zone uses an address prefix (more details available in [{{site.data.keyword.vpc_short}} network connectivity](/docs/sap-vpc?topic=sap-vpc-sap-netweaver-on-ibm-cloud-iaas-overview#vpc-network-connectivity)), with subnets within this construct. Each VPC subnet is for a specific zone.
 
 {{site.data.keyword.cloud}} offers further protection mechanisms that can provide your {{site.data.keyword.vsi_is_short}} with a layer of security that you can configure and adapt anytime. Two key principles are:
-  * **Network Access Control Lists (ACL)**: Available for use by all subnets in all zones, attached to a subnet providing subnet-level protection by limiting a subnet's inbound and outbound traffic.
+  * **Network Access Control Lists (ACL)**: Available for use by all subnets in all zones. ACLs attach to a subnet and provide subnet-level protection by limiting a subnet's inbound and outbound traffic.
   * **Security Groups**: Available for use by all subnets on all zones, attached to a vNIC of a virtual server providing instance-level protection by acting as a firewall to restrict a vNIC inbound and outbound traffic.
 
 ### Network Access Control List
@@ -86,7 +86,7 @@ Network Access Control Lists (ACLs) are used to manage `allow` and `deny` rules 
 ### Security Groups
 {: #security-groups}
 
-A Security Group is a set of `allow` only firewall rules. You can apply these rules to one or more virtual servers. You can also create a default Security Group with Secure Shell (SSH) and ICMP (ping) during VPC creation, which will allow ICMP and SSH from any IP address. These rules should be restricted to the IP ranges from which you are planning to access the VPC. Rules should also allow for SAP application ports if you are planning to access them through the public internet.
+A Security Group is a set of `allow` only firewall rules. You can apply these rules to one or more virtual servers. You can also create a default Security Group with Secure Shell (SSH) and ICMP (ping) during VPC creation, which will allow ICMP and SSH from any IP address. These rules should be restricted to the IP ranges from which you are planning to access the VPC. Rules should be set to allow for SAP application ports, if you are planning to access these ports through the public internet.
 
 For more information, see [Security in your VPC](/docs/vpc?topic=vpc-security-in-your-vpc).
 
