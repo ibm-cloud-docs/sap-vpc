@@ -81,7 +81,7 @@ Each VPC zone uses an address prefix (more details available in [{{site.data.key
 ### Network Access Control List
 {: #network-acl}
 
-Network Access Control Lists (ACLs) are used to manage `allow` and `deny` rules on a subnet level. ACLs are used to manage network traffic between subnets, too. The default ACL for a subnet opens the subnet for all traffic. If you wanted more strict security measures, you would need to apply rules to the ACL. When adding rules, keep in mind that required services like DNS or OS patch/package download might be affected by those rules. For more information, see [Security in your VPC](/docs/vpc?topic=vpc-security-in-your-vpc).
+Network Access Control Lists (ACLs) are used to manage `allow` and `deny` rules on a subnet level. ACLs are used to manage network traffic between subnets, too. The default ACL for a subnet opens the subnet for all traffic. If you wanted more strict security measures, you would need to add rules to the ACL. When adding rules, keep in mind that required services like DNS or OS patch/package download might be affected by those rules. For more information, see [Security in your VPC](/docs/vpc?topic=vpc-security-in-your-vpc).
 
 ### Security Groups
 {: #security-groups}
