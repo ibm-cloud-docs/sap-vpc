@@ -125,9 +125,9 @@ As already mentioned, deployment on {{site.data.keyword.vpc_full}} similar to de
 {: #maxdb-considerations}
 
 Refer to the following information on MaxDB:
-• [SAP Help Portal -- SAP MaxDB](https://help.sap.com/viewer/product/SAP_MAXDB/7.9/en-US){: external}
-• [SAP MaxDB Community Page](https://community.sap.com/topics/maxdb){: external}
-• [SAP Note 767598  - Available SAP MaxDB documentation](https://launchpad.support.sap.com/#/notes/767598){: external}
+* [SAP Help Portal -- SAP MaxDB](https://help.sap.com/viewer/product/SAP_MAXDB/7.9/en-US){: external}
+* [SAP MaxDB Community Page](https://community.sap.com/topics/maxdb){: external}
+* [SAP Note 767598  - Available SAP MaxDB documentation](https://launchpad.support.sap.com/#/notes/767598){: external}
 
 ### Planning
 {: #maxdb-planning}
