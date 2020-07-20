@@ -120,3 +120,22 @@ Before starting your deployment, check all relevant information and prerequisite
  ### Deployment
 {: #ase-deployment}
 As already mentioned, deployment on {{site.data.keyword.vpc_full}} similar to deployment on-premise. However, there are subtle differences in getting the required infrastructure deployed and accessing it. Refer to the steps in [Sample SAP NetWeaver deployment](/docs/sap-vpc?topic=sap-vpc-sample-sap-netweaver-deployment) and then follow the SAP installation guides and the SAP Notes listed above.
+
+## Considerations about MaxDB
+{: #maxdb-considerations}
+
+Refer to the following information on MaxDB:
+• [SAP Help Portal -- SAP MaxDB](https://help.sap.com/viewer/product/SAP_MAXDB/7.9/en-US){: external}
+• [SAP MaxDB Community Page](https://community.sap.com/topics/maxdb){: external}
+• [SAP Note 767598  - Available SAP MaxDB documentation](https://launchpad.support.sap.com/#/notes/767598){: external}
+
+### Planning
+{: #maxdb-planning}
+For a current overview of the combinations of SAP MaxDB, SAP system, and operating system, see the [Product Availability Matrix (PAM)](http://support.sap.com/pam){: external}.
+
+[SAP Note 2927211](https://launchpad.support.sap.com/#/notes/2927211){: external} lists the supported MaxDB releases to be used for deployment on {{site.data.keyword.vpc_short}}.
+
+### Deployment
+{: #maxdb-deployment}
+
+Deployment on {{site.data.keyword.vpc_short}} is similar to deployment on-premise. However, there are subtle differences in getting the required infrastructure deployed and accessing it. Refer to the steps in [Sample SAP NetWeaver deployment](https://cloud.ibm.com/docs/sap-vpc?topic=sap-vpc-sample-sap-netweaver-deployment){: external} and then find all essential information about installation in [SAP Note 1020175 - FAQ: SAP MaxDB installation, upgrade or applying a patch](https://launchpad.support.sap.com/#/notes/1020175){: external}.
