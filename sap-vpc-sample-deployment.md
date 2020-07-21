@@ -123,7 +123,7 @@ Use the following steps to create a virtual server instance.
 ### Setting an SSH key
 {: #ssh-key}
 
-If you already have uploaded your private key for the VPC's region, select it and skip to the next section (Attaching storage).
+If you already have uploaded your public key for the VPC's region, select it and skip to the next section (Attaching storage).
 Otherwise follow these steps.
 
 1. Click **New key**.
