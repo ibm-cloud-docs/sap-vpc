@@ -110,6 +110,7 @@ On the SAP ASE landing page you will find useful documentation and reference man
 
 ### Planning
 {: #ase-planning}
+
 Be sure to check [SAP Note 2489781](https://launchpad.support.sap.com/#/notes/2489781){: external} for details about the supported operating systems and versions as well as [SAP Note 2927211](https://launchpad.support.sap.com/#/notes/2927211){: external} for the supported ASE releases to be used for the deployment on {{site.data.keyword.vpc_full}}.
 
 Before starting your deployment, check all relevant information and prerequisites that are mentioned in the following essential documentation:
@@ -117,14 +118,15 @@ Before starting your deployment, check all relevant information and prerequisite
   - [SAP Note 1748888 - Installing Systems Based on NW 7.3 and Higher: SAP ASE](https://launchpad.support.sap.com/#/notes/1748888){: external}
   - [Minimally Configuring an SAP ASE Server](https://help.sap.com/viewer/23c3bb4a29be443ea887fa10871a30f8/16.0.3.7/en-US/a6371abfbc2b10149c66e4e41119a6da.html){: external}
 
- ### Deployment
+### Deployment
 {: #ase-deployment}
+
 As already mentioned, deployment on {{site.data.keyword.vpc_full}} similar to deployment on-premise. However, there are subtle differences in getting the required infrastructure deployed and accessing it. Refer to the steps in [Sample SAP NetWeaver deployment](/docs/sap-vpc?topic=sap-vpc-sample-sap-netweaver-deployment) and then follow the SAP installation guides and the SAP Notes listed above.
 
-## Considerations about MaxDB
+## Considerations about SAP MaxDB
 {: #maxdb-considerations}
 
-Refer to the following information on MaxDB:
+Refer to the following information on SAP MaxDB:
 * [SAP Help Portal -- SAP MaxDB](https://help.sap.com/viewer/product/SAP_MAXDB/7.9/en-US){: external}
 * [SAP MaxDB Community Page](https://community.sap.com/topics/maxdb){: external}
 * [SAP Note 767598  - Available SAP MaxDB documentation](https://launchpad.support.sap.com/#/notes/767598){: external}
@@ -133,7 +135,7 @@ Refer to the following information on MaxDB:
 {: #maxdb-planning}
 For a current overview of the combinations of SAP MaxDB, SAP system, and operating system, see the [Product Availability Matrix (PAM)](http://support.sap.com/pam){: external}.
 
-[SAP Note 2927211](https://launchpad.support.sap.com/#/notes/2927211){: external} lists the supported MaxDB releases to be used for deployment on {{site.data.keyword.vpc_short}}.
+[SAP Note 2927211](https://launchpad.support.sap.com/#/notes/2927211){: external} lists the supported SAP MaxDB versions to be used for deployment on {{site.data.keyword.vpc_short}}.
 
 ### Deployment
 {: #maxdb-deployment}
