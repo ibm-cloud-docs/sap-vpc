@@ -64,7 +64,7 @@ Contact [{{site.data.keyword.cloud_notm}} Support](/docs/get-support?topic=get-s
 
 {{site.data.keyword.virtualmachineslong}} (Gen2) are virtual machines that run on an {{site.data.keyword.IBM_notm}}-managed hypervisor. {{site.data.keyword.virtualmachinesshort}} provide flexible compute by using a multi-tenant infrastructure for SAP workloads. The operating system and applications that run inside the {{site.data.keyword.virtualmachinesshort}} are managed by the account holder, either you, your customer, or your services partner depending on your busineess operations.
 
-The {{site.data.keyword.virtualmachinesshort}} that are certified for SAP are available with instaneous provisioning, and are offered in different profiles that define CPU and RAM combinations.
+The {{site.data.keyword.virtualmachinesshort}} that are certified for SAP are available with instantaneous provisioning, and are offered in different profiles that define CPU and RAM combinations.
 
 For more explanation information about Virtual Servers, see [What is {{site.data.keyword.vpc_short}}?](https://www.ibm.com/cloud/learn/vpc){: external}.
 
