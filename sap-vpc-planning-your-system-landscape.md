@@ -34,8 +34,6 @@ More solutions are available from SAP that are not SAP NetWeaver-based and many 
 
 You want to be as detailed as possible when you determine the size of your server based on the applications that you plan to run, potential growth, and performance. Additionally, keep in mind your storage and memory requirements for your applications. SAP systems in a landscape have specific requirements for connectivity, either among each other or to external systems. For more information, see [Items to consider when you plan your SAP landscape](/docs/sap-vpc?topic=sap-vpc-considerations).
 
-If the compute or storage resources in your VPC are not sufficient for your sizing, you can connect your VPC to the {{site.data.keyword.cloud_notm}} Classic Infrastructure. For more information about VPC connectivity requirements, see [Setting up access to classic infrastructure](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure).
-
 ## Necessary account credentials for SAP and IBM Cloud
 {: #get_sap_ibm_credentials}
 
