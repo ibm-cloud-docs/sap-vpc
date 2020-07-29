@@ -43,7 +43,7 @@ SAP Netweaver on IBM Cloud VPC
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    [Getting help and support](/get-support/get-support-getting-customer-support)
+    /get-support/get-support-getting-customer-support
 
     {: .topicgroup}
     FAQs
