@@ -56,7 +56,7 @@ For more information on VPC access for zone-to-zone, VPC-to-VPC, VPC-to-Classic 
 
 IOPS are measured based on 16 KB block size with a 50/50 read/write mix. In order to achieve a maximum I/O throughput, it's advisable to look at the tier and custom profiles available for storage, in order to find the optimal combination of size and IOPS.
 
-Contact [{{site.data.keyword.cloud_notm}} Support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) for extension options if the storage options are insufficient for your workload.
+Contact [{{site.data.keyword.cloud_notm}} Support](/docs/get-support?topic=get-support-using-avatar#getting-customer-support) for extension options if the storage options are insufficient for your workload.
 
 
 ## IBM Virtual Servers
@@ -86,4 +86,4 @@ Once provisioned and the server is running, your {{site.data.keyword.virtualmach
 ## Support
 {: #concept-support}
 
-{{site.data.keyword.cloud_notm}} Customer Support handles any support questions and issues that might arise by using various outlets, including chat, phone, and case-based support. Customer support is offered at no cost to all {{site.data.keyword.cloud_notm}} customers and covers most cases that are placed each day. See [Getting Customer Support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) for more information.
+{{site.data.keyword.cloud_notm}} Customer Support handles any support questions and issues that might arise by using various outlets, including chat, phone, and case-based support. Customer support is offered at no cost to all {{site.data.keyword.cloud_notm}} customers and covers most cases that are placed each day. See [Getting Customer Support](/docs/get-support?topic=get-support-using-avatar#getting-customer-support) for more information.

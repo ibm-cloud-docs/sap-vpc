@@ -66,7 +66,7 @@ Server resources that are in {{site.data.keyword.cloud_notm}} Classic Infrastruc
 Extra requirements exist in Classic Infrastructure networking to enable the _Transit Gateway_, be sure to review documentation before you change your Classic Infrastructure or VPC Infrastructure networking topology and configuration.
 {:important}
 
-Advise your networking department to contact [{{site.data.keyword.cloud_notm}} Support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) after determining the layout of your landscape and the connectivity that is required on the SAP application layer.
+Advise your networking department to contact [{{site.data.keyword.cloud_notm}} Support](/docs/get-support?topic=get-support-using-avatar#getting-customer-support) after determining the layout of your landscape and the connectivity that is required on the SAP application layer.
 {: note}
 
 ## VPC network constructs
