@@ -85,6 +85,9 @@ The {{site.data.keyword.IBM_notm}} Metrics Collector for SAP is a daemon or serv
 The {{site.data.keyword.IBM_notm}} Metrics Collector for SAP uses port 18181 to expose the metrics. Make sure that `port 18181` is not used by any other application. For more information on how to check port availability, see [Troubleshooting](#troubleshooting).
 {:important}
 
+The commands listed below were run on a Red Hat VSI. If you have a SUSE VSI you may follow the same steps but may see a slightly different UI.
+{:note}
+
 Use the following steps to download the IMCS.
 
 1. [Download the IMCS](ftp://public.dhe.ibm.com/cloud/bluemix/sap/rhel){: external}.
@@ -195,9 +198,10 @@ No reported metrics is mainly due to the port not assigned to SAP Metrics Collec
 ### nmap not found
 {: nmap-not-found}
 
-You can install `nmap` on your system by using the appropriate package manager like `yum` or `apt-get`.
+You can install `nmap` on your system by using the appropriate package manager like `yum` or `zypper`.
 
-  * Command for Red Hat or Centos Linux: `yum install nmap`
+  * Command for Red Hat: `yum install nmap`
+  * Command for SUSE: `zypper install nmap`
 
 
 ## Additional information

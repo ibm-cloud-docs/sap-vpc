@@ -20,7 +20,7 @@ subcollection: sap-vpc
 {:note: .note}
 {:tip: .tip}
 
-# Sample SAP NetWeaver deployment
+# Sample SAP NetWeaver deployment on Red Hat Enterprise Linux
 {: #sample-sap-netweaver-deployment}
 
 The following information provides an introduction for customers who are new to {{site.data.keyword.vpc_full}} Gen 2 (VPC Gen2) environment and prefer a “quick start” format versus more detailed instructions. Two sample configurations are provided to help you through the ordering process to the start of the SAP installation.
@@ -111,7 +111,7 @@ Use the following steps to create a virtual server instance.
 
   ![Figure 3. Catalog Image for SAP NetWeaver](/images/image8.png "Catalog Image for SAP NetWeaver")
 
-  There are two different Red Hat Enterprise Linux Catalog Images available, one for SAP HANA and one for SAP NetWeaver (Applications). In these images, the specific repositories are enabled, so you can install the OS packages that are required to install SAP HANA or SAP NetWeaver.
+  For every SUSE Linux Enterprise and Red Hat Enterprise Linux version there are two different Catalog Images available each: one for SAP HANA and one for SAP NetWeaver (Applications). In these images, the specific repositories are enabled, so you can install the OS packages that are required to install SAP HANA or SAP NetWeaver.
   {: note}
 
 1. Click **All profiles** > **Balanced** and select **`bx2-32x128`**. For additional information on SAP-certified profiles, see [Sizing the virtual server](/docs/sap-vpc?topic=sap-vpc-size_the_server).
@@ -187,7 +187,7 @@ See here a sample **`/etc/hosts`** file. Take care that both references of local
 #::1 sap-app-vsi sap-app-vsi
 ::1 localhost.localdomain localhost
 ::1 localhost6.localdomain6 localhost6
-10.243.128.8 sap-app-vsi.saptest.com sap-app-vsi
+10.242.128.8 sap-app-vsi.saptest.com sap-app-vsi
 ```
 
 To prevent the {{site.data.keyword.cloud_notm}} `cloudinit` process from reverting back the content of **`/etc/hosts`** to the previous values on the next restart, change the configuration in `/etc/cloud/cloud.cfg`. Change `manage_etc_host` from `True` to `False`.
